@@ -7,14 +7,32 @@
   margin: auto;
 }
 
+.line {
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .btn button:nth-child(1) {
+  background: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
   padding: 8px 20px;
   color: #979797;
   font-size: 10px;
   font-weight: 400;
   line-height: 130%;
+  cursor: pointer;
+  margin-right: 15px;
 }
 
 .btn button:nth-child(2) {
-  color: green;
+  background: var(--blue);
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 130%;
+  cursor: pointer;
 }
