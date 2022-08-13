@@ -1,14 +1,9 @@
-import './App.css'
-import Hero from './components/hero/Hero';
-import Navbar from './components/navbar/Navbar';
+import Header from "./components/header/Header";
 
 const App = () => {
-  return (
-    <div className='App'>
-      <Navbar />
-      <Hero />
-    </div>
-  );
+  return <div className='App'>
+    <Header />
+  </div>;
 };
 
 export default App;
