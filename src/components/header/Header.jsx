@@ -13,7 +13,6 @@ const Header = () => {
             <button>Sign Up</button>
           </div>
         </div>
-        <div className={style.header_content}></div>
       </div>
     </div>
   );
