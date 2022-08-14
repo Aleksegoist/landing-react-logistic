@@ -1,3 +1,7 @@
+.hero {
+  margin-top: 25px;
+}
+
 .hero_content_box {
   background-image: url(../../assets/background.png);
   background-size: cover;
@@ -17,6 +21,7 @@
   font-size: 12px;
   line-height: 130%;
   margin-bottom: 16px;
+  color: #fff;
 }
 
 .hero_content h1 {
@@ -51,4 +56,37 @@
   backdrop-filter: blur(11px);
   border: none;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 540px) {
+  .hero {
+    margin-top: 98px;
+    position: relative;
+  }
+
+  .hero_title {
+    width: 100%;
+    position: absolute;
+    top: -41%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_title h2 {
+    color: var(--blue);
+    font-weight: 400;
+    margin: 25px 0 10px 0;
+  }
+  .hero_title h1 {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin-bottom: 21px;
+  }
+  .hero_title p {
+    display: none;
+  }
 }
