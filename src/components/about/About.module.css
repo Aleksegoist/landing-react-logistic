@@ -1,0 +1,27 @@
+.about {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.title {
+  max-width: 603px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 74px 0 103px 0;
+  margin-bottom: 60px;
+}
+
+.title h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 22px;
+}
+
+.title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.6;
+}
