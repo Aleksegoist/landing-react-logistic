@@ -15,7 +15,6 @@ const About = () => {
             solution providers.
           </p>
         </div>
-        <div></div>
       </div>
     </div>
   );

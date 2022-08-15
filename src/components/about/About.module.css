@@ -1,6 +1,7 @@
 .about {
   width: 100%;
   background-color: #fafafa;
+  margin-bottom: 60px;
 }
 
 .title {
@@ -8,7 +9,6 @@
   margin: 0 auto;
   text-align: center;
   padding: 74px 0 103px 0;
-  margin-bottom: 60px;
 }
 
 .title h1 {
