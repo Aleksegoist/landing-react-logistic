@@ -4,6 +4,7 @@ import Raiting from '../../assets/rating.png';
 import ArrowRight from '../../assets/arrow_right.png';
 import Man from '../../assets/man.png';
 import Points from '../../assets/group.png';
+import Pagination from '../../assets/pagination.png';
 
 const Feedback = () => {
   return (
@@ -18,24 +19,30 @@ const Feedback = () => {
                 better tomorrow.
               </p>
             </div>
-            <div className={style.card}>
-              <div className={style.vertical_line}></div>
-              <div className={style.card_text}>
-                <div>
-                  <p>
-                    I'm a sales professional and I have been relying on Sales
-                    Axis to provide me with the best matching products. It's
-                    helped me close several deals and receive commissions
-                    effortlessly! I highly recommend this app!
-                  </p>
-                </div>
-                <div className={style.desc}>
+            <div className={style.response}>
+              <div className={style.pagination}>
+                <img src={Pagination} alt='/' />
+              </div>
+
+              <div className={style.card}>
+                <div className={style.vertical_line}></div>
+                <div className={style.card_text}>
                   <div>
-                    <p>Daniel Sąsiadek</p>
-                    <p>Sales Professional</p>
+                    <p>
+                      I'm a sales professional and I have been relying on Sales
+                      Axis to provide me with the best matching products. It's
+                      helped me close several deals and receive commissions
+                      effortlessly! I highly recommend this app!
+                    </p>
                   </div>
-                  <div>
-                    <img src={Raiting} alt='/' />
+                  <div className={style.desc}>
+                    <div>
+                      <p>Daniel Sąsiadek</p>
+                      <p>Sales Professional</p>
+                    </div>
+                    <div>
+                      <img src={Raiting} alt='/' />
+                    </div>
                   </div>
                 </div>
               </div>

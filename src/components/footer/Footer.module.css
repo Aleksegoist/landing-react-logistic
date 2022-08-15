@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  background-color: #050c23;
+}
+
+.footer_box {
+  padding: 56px 44px 31px 35px;
+  display: grid;
+  grid-template-columns: 230px 99px 89px 274px;
+  color: #fff;
+  /* justify-content: space-between; */
+}
+
+.first_block {
+}
+
+.first_block img {
+  margin-bottom: 10px;
+}
+
+.first_block p {
+  max-width: 230px;
+  font-size: 10px;
+  line-height: 15px;
+}

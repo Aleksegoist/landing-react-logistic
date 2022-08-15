@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   max-height: 598px;
+  position: relative;
 }
 
 .text {
@@ -26,6 +27,12 @@
   font-size: 12px;
   line-height: 19px;
   color: #576065;
+}
+
+.pagination {
+  position: absolute;
+  left: 122px;
+  bottom: 84px;
 }
 
 .card {
@@ -109,6 +116,7 @@
 .images_man img {
   padding: 28px 31px 0 31px;
   display: block;
+  object-fit: cover;
 }
 
 .feedback_arrow {
@@ -126,4 +134,63 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 13px;
+}
+
+@media screen and (max-width: 900px) {
+  .feedback_box {
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .response {
+    display: flex;
+    gap: 10px;
+  }
+
+  .pagination {
+    position: static;
+  }
+
+  .text {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card {
+    left: 46px;
+    max-width: 280px;
+    margin-bottom: 40px;
+    position: static;
+    margin: 0 auto;
+  }
+
+  .vertical_line {
+    display: none;
+  }
+
+  .card_text {
+    padding: 10px 10px 0 10px;
+  }
+
+  .card_text p {
+    line-height: 24px;
+  }
+
+  .images_man {
+    display: none;
+  }
+
+  .points_image {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
 }
