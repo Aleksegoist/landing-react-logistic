@@ -3,6 +3,12 @@
   margin-bottom: 60px;
 }
 
+.feedback_box {
+  display: flex;
+  justify-content: space-between;
+  max-height: 598px;
+}
+
 .text {
   max-width: 386px;
   padding: 78px 0 0 90px;
@@ -24,13 +30,17 @@
 
 .card {
   max-width: 378px;
+  background: #fff;
   box-shadow: 0px 14.6178px 29.2356px rgba(32, 168, 254, 0.07);
   border-radius: 10.6311px;
   position: relative;
+  left: 223px;
+
+  z-index: 5;
 }
 
 .vertical_line {
-  width: 2px;
+  width: 1px;
   height: 128px;
   background-color: #ff8b00;
   position: absolute;
@@ -38,20 +48,22 @@
   top: 43px;
 }
 
+.card_text {
+  padding: 20px 7px 31px 42px;
+}
+
 .card_text p {
   font-size: 14px;
   line-height: 32px;
   color: #576065;
-  padding: 20px 7px 0px 42px;
+  margin-bottom: 20px;
 }
 
 .desc {
   max-width: 310px;
   display: grid;
   grid-template-columns: 104px 91px;
-  align-items: end;
   justify-content: space-between;
-  margin-left: 42px;
 }
 
 .desc p:nth-child(1) {
@@ -60,6 +72,7 @@
   line-height: 16px;
   color: #0f2253;
   padding: 0;
+  margin: 0;
 }
 
 .desc p:nth-child(2) {
@@ -68,4 +81,48 @@
   line-height: 15px;
   color: #879197;
   padding: 0;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.points_image {
+  width: 182px;
+  margin: 37px 23px;
+  z-index: 1;
+}
+
+.images_man {
+  max-width: 400px;
+  background: #fff5e5;
+  border-radius: 13.2889px;
+  z-index: 2;
+  position: relative;
+  top: -155px;
+  right: 75px;
+}
+
+.images_man img {
+  padding: 28px 31px 0 31px;
+  display: block;
+}
+
+.feedback_arrow {
+  right: 75px;
+  bottom: 112px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  position: relative;
+}
+
+.feedback_arrow p {
+  color: #ff9c00;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
 }
