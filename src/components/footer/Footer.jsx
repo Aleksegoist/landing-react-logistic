@@ -50,7 +50,7 @@ const Footer = () => {
             <h2>Subscribe to our newsletter</h2>
             <div className={style.footer_input}>
               <input type='email' placeholder='Email address' />
-              <button>></button>
+              <button>Ok</button>
             </div>
             <div className={style.social}>
               <div className={style.bg_social}>
