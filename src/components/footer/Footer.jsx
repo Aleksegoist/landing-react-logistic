@@ -22,31 +22,49 @@ const Footer = () => {
           <div className={style.second_block}>
             <h2>Page’s</h2>
             <ul>
-              <li>Product View</li>
-              <li>User dashboard</li>
-              <li>User's Lead page</li>
+              <li>
+                <a href='/'>Product View</a>
+              </li>
+              <li>
+                <a href='/'>User dashboard</a>
+              </li>
+              <li>
+                <a href='/'>User's Lead page</a>
+              </li>
             </ul>
           </div>
 
           <div className={style.third_block}>
             <h2>About</h2>
             <ul>
-              <li>Our Story</li>
-              <li>Privacy policy</li>
+              <li>
+                <a href='/'>Our Story</a>
+              </li>
+              <li>
+                <a href='/'>Privacy policy</a>
+              </li>
             </ul>
           </div>
 
           <div className={style.four_block}>
             <h2>Subscribe to our newsletter</h2>
-            <div>
+            <div className={style.footer_input}>
               <input type='email' placeholder='Email address' />
-              <button>Ok</button>
+              <button>></button>
             </div>
             <div className={style.social}>
-              <img src={Facebook} alt='/' />
-              <img src={Insta} alt='/' />
-              <img src={Twitter} alt='/' />
-              <img src={Linken} alt='/' />
+              <div className={style.bg_social}>
+                <img src={Facebook} alt='/' />
+              </div>
+              <div className={style.bg_social}>
+                <img src={Insta} alt='/' />
+              </div>
+              <div className={style.bg_social}>
+                <img src={Twitter} alt='/' />
+              </div>
+              <div className={style.bg_social}>
+                <img src={Linken} alt='/' />
+              </div>
             </div>
           </div>
         </div>

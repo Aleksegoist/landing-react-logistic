@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 230px 99px 89px 274px;
   color: #fff;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .first_block {
@@ -22,4 +22,126 @@
   max-width: 230px;
   font-size: 10px;
   line-height: 15px;
+}
+
+.second_block h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.23px;
+  margin-bottom: 25px;
+}
+
+.second_block ul {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.23px;
+  opacity: 0.6;
+}
+
+.second_block li {
+  margin-bottom: 21px;
+}
+
+.third_block h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.23px;
+  margin-bottom: 25px;
+}
+
+.third_block ul {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.23px;
+  opacity: 0.6;
+}
+
+.third_block li {
+  margin-bottom: 21px;
+}
+
+.four_block h2 {
+  width: 122px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  margin-bottom: 48px;
+}
+
+.footer_input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  /* border-bottom: 1px solid #fff; */
+  /* opacity: 0.1; */
+}
+
+.footer_input input {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  margin-right: 5px;
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  mix-blend-mode: normal;
+}
+
+.footer_input button {
+  min-width: 50px;
+  height: 52px;
+  background: #2a85ff;
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+}
+
+.social img {
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.bg_social {
+  width: 29px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_bottom_text {
+  text-align: center;
+}
+
+.footer_bottom_text p {
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+  opacity: 0.5;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .first_block {
+    margin-bottom: 20px;
+  }
+
+  .four_block h2 {
+    margin-bottom: 20px;
+  }
 }
